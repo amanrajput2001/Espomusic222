@@ -130,12 +130,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 💫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 🥀 . 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 💫 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 😔 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 🎸  𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨  ❤️🥀 :) ")
+                        f"<b>♨ғʟᴏᴏᴅ 🤨 ᴡᴀɪᴛ ᴇʀʀᴏʀ  🥀♨</b>\nʜᴇʏ ᴀssɪsᴛᴀɴᴛ 💥 ᴜsᴇʀʙᴏᴛ ❤️ ɪs ᴜɴᴀʙʟᴇ ᴛᴏ ᴊᴏɪɴ ʏᴏᴜʀ 💫 ɢʀᴏᴜᴘ  ᴅᴜᴇ ᴛᴏ ᴛᴏᴏ ᴍᴀɴʏ ᴊᴏɪɴ ʀᴇǫᴜᴇsᴛ 💝 . ᴍᴀᴋᴇ sᴜʀᴇ ᴜsᴇʀʙᴏᴛ 💫 ɪs ɴᴏᴛ ʙᴀɴɴᴇᴅ 😔 ɪɴ ɢʀᴏᴜᴘ ❤️  ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ ɪғ ᴀɴʏ ǫᴜᴇʀʏ ᴄᴏɴᴛᴀᴄᴛ [ᴀᴍᴀɴ](https://t.me/itzamanrajput) ✨  ❤️🥀 ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐂𝐡𝐚𝐭' 𝐀𝐬𝐤 𝐀𝐝𝐦𝐢𝐧 😎 𝐓𝐨 𝐒𝐞𝐧𝐝 /𝐏𝐥𝐚𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 😎 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐈𝐭 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [◧𝐀𝐦𝐚𝐧 𝐑𝐚𝐣𝐩𝐮𝐭 ◧](https://t.me/itzamanrajput ❤️🎶🥀 </i>")
+            f"<i>Hey {user.first_name}, ᴀssɪsᴛᴀɴᴛ ❤️ ᴜsᴇʀʙᴏᴛ ɪs ɴᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ' ᴀsᴋ ᴀᴅᴍɪɴ  😎 ᴛᴏ sᴇɴᴅ /play ᴄᴏᴍᴍᴀɴᴅ 😎 ғᴏʀ ᴛʜᴇ ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ɪᴛ ɪғ ᴀɴʏ ǫᴜᴇʀʏ ᴄᴏɴᴛᴀᴄᴛ :- ✨ [ᴀᴍᴀɴ](https://t.me/itzamanrajput ❤️🎶🥀 </i>")
         return
     
     audio = (
@@ -164,23 +164,10 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="𝐁𝐨𝐭 𝐨𝐰𝐧𝐞𝐫 🥀❤️",
                             url=f"https://t.me/itzamanrajput")
-               ],
-               [
-                    InlineKeyboardButton(
-                            text="TPG GROUP",
-                            url=f"https://t.me/india_chat_00"),
-                            
-                    InlineKeyboardButton(
-                            text="TSG GROUP",
-                            url=f"https://t.me/Friends_Chatting_Group3")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="BOT CHANNEL",
-                            url=f"https://t.me/music_bothub")
-                   
-                ]
-            ]
+               ]
+               
+               ]
+                    
         )
 
         requested_by = message.from_user.first_name
@@ -217,23 +204,11 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="𝐁𝐨𝐭 𝐨𝐰𝐧𝐞𝐫 🥀❤️",
                             url=f"https://t.me/itzamanrajput")
-               ],
-               [
-                    InlineKeyboardButton(
-                            text="TPG GROUP",
-                            url=f"https://t.me/india_chat_00"),
-                            
-                    InlineKeyboardButton(
-                            text="TSG GROUP 🥀",
-                            url=f"https://t.me/Friends_Chatting_Group3")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="BOT CHANNEL",
-                            url=f"https://t.me/music_bothub")
-                   
-                ]
-            ]
+               ]
+               
+               ]
+                    
+            
         )
 
         except Exception as e:
@@ -247,23 +222,12 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="BOT OWNER",
                             url=f"https://t.me/itzamanrajput")
-               ],
-               [
-                    InlineKeyboardButton(
-                            text="TPG GROUP",
-                            url=f"https://t.me/india_chat_00"),
-                            
-                    InlineKeyboardButton(
-                            text="TSG GROUP 🥀",
-                            url=f"https://t.me/Friends_Chatting_Group3")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="BOT CHANNEL",
-                            url=f"https://t.me/music_bothub")
+               ]
+               
+                    
                    
-                ]
-            ]
+              ] 
+            
         )
 
         if (dur / 60) > DURATION_LIMIT:
